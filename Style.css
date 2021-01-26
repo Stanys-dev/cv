@@ -1,0 +1,25 @@
+h1 {
+    color: green;
+    width: 300px ;
+    padding: 0 0 0 40%;
+    }
+img{
+    width: 300px;
+}
+h2{
+    text-decoration-line:underline ;
+}
+.general {
+    font-style:  italic;
+    margin: 0 0 15px 25px;
+    font-size: 20px;
+}
+.icons{
+    width:25px
+}
+.line{
+    background:green; height: 100%; border-left: 3px red solid; left: 22%; position: absolute;
+}
+
+
+
