@@ -1,61 +1,84 @@
-header {
-    text-align: center;
-}
-
 body {
-    min-height: 100vh;
-    padding-bottom: 10px;
-    position: relative;
+    background: seagreen;
 }
 
-h1 {
+* {
+    padding: 2% 0 0 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.wrap {
+    width: 400px;
+    margin: auto;
+    height: auto;
+    background: indigo;
+    padding: 15px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: indigo;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+    background: tan;
+}
+
+input[type=button] {
+    width: 89px;
+    padding: 10px;
+    font-size: 22px;
     color: green;
+    font-weight: bold;
+    Border-radius: 50px
 }
 
-img {
-    width: 300px;
+#plus {
+    color: red;
+    font-size: 35px;
+    margin-bottom: 10px
 }
 
-h2 {
-    text-decoration-line: underline;
+#minus {
+    color: red;
+    font-size: 35px;
+    margin-bottom: 10px
 }
 
-.general {
-    margin: 0 0 15px 25px;
-    font-size: 20px;
-    font-style: normal;
+#multi {
+    color: red;
+    font-size: 35px;
+    margin-bottom: 10px
 }
 
-.line {
-    height: 60%;
-    border-left: 3px red solid;
-    position: absolute;
-    left: 22%;
-    animation-name: rainbow;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+#del {
+    width: 100%;
+    color: red;
+    font-size: 35px;
 }
 
-@keyframes rainbow {
-    0% {
-        left: 20%;
-        background-color: black;
-    }
-    100% {
-        left: 22%;
-        opacity: 0.05;
-        background-color: red;
-    }
+#div {
+    color: red;
+    font-size: 35px;
+    margin: 0 0 10px 185px
 }
 
-.line1 {
-    background-color: #fff;
-    border-top: 3px dashed #8c8b8b;
+#level {
+    color: red;
+    font-size: 35px;
+    padding: 10px 135px;
+    margin-bottom: 10px;
 }
 
-footer {
-    padding: 2%;
+#proc {
+    color: red;
+    font-size: 35px
 }
 
 .social-menu ul {
@@ -64,8 +87,8 @@ footer {
     position: absolute;
     transform: translate(-50%, -50%);
     display: flex;
-    bottom: 0.5%;
     Left: 10%;
+    bottom: 0.5%;
 }
 
 .social-menu ul li {
@@ -122,8 +145,9 @@ footer {
     position: absolute;
     transform: translate(-50%, -50%);
     display: flex;
-    bottom: 0.5%;
     right: 0;
+    bottom:0;
+
 }
 
 .button ul li {
@@ -160,7 +184,4 @@ footer {
 
 .button ul li:nth-child(1) a:hover {
     background-color: gold;
-}
-#table{
-    border:1px;
 }
