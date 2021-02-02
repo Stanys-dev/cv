@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2021 by Doarci (http://jsbin.com/jokahan/5/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang="en">
+<head>
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calculator_style.css">
+    <link rel="stylesheet" href="font_awesome/css/all.css">
+</head>
+<header></header>
+<body>
+<div class="wrap">
+    <form name="cal">
+        <label>
+            <input type="text" name="display">
+        </label>
+        <input onclick="cal.display.value +='9'" type="button" value="9">
+        <input onclick="cal.display.value+='8'" type="button" value="8">
+        <input onclick="cal.display.value+='7'" type="button" value="7">
+        <input id="plus" onclick="cal.display.value+='+'" type="button" value="+">
+        <input onclick="cal.display.value+='6'" type="button" value="6">
+        <input onclick="cal.display.value+='5'" type="button" value="5">
+        <input onclick="cal.display.value+='4'" type="button" value="4">
+        <input id="minus" onclick="cal.display.value+='-'" type="button" value="-">
+        <input onclick="cal.display.value+='3'" type="button" value="3">
+        <input onclick="cal.display.value+='2'" type="button" value="2">
+        <input onclick="cal.display.value+='1'" type="button" value="1">
+        <input id="multi" onclick="cal.display.value+='*'" type="button" value="*">
+        <input onclick="cal.display.value+='0'" type="button" value="0">
+        <input id="div" onclick="cal.display.value+='/'" type="button" value="/">
+        <input id="level" onclick="cal.display.value =eval(cal.display.value)" type="button" value="=">
+        <input id="proc" onclick="cal.display.value+='%'" type="button" value="%">
+        <input id="del" onclick="cal.display.value =''" type="button" value="DELETE">
+
+    </form>
+</div>
+</body>
+<footer>
+    <div class="social-menu">
+        <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+            <li><a href="https://github.com/" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+        </ul>
+    </div>
+    <div class="button">
+        <ul>
+            <li><a href="cv_website.html" rel="stylesheet"><i class="fas fa-male"></i></i></a></li>
+            <li><a href="map.html" rel="stylesheet"><i class="fas fa-map-marked-alt"></i></a></li>
+        </ul>
+    </div>
+</footer>
+</html>

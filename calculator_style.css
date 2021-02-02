@@ -1,0 +1,187 @@
+body {
+    background: seagreen;
+}
+
+* {
+    padding: 2% 0 0 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.wrap {
+    width: 400px;
+    margin: auto;
+    height: auto;
+    background: indigo;
+    padding: 15px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: indigo;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+    background: tan;
+}
+
+input[type=button] {
+    width: 89px;
+    padding: 10px;
+    font-size: 22px;
+    color: green;
+    font-weight: bold;
+    Border-radius: 50px
+}
+
+#plus {
+    color: red;
+    font-size: 35px;
+    margin-bottom: 10px
+}
+
+#minus {
+    color: red;
+    font-size: 35px;
+    margin-bottom: 10px
+}
+
+#multi {
+    color: red;
+    font-size: 35px;
+    margin-bottom: 10px
+}
+
+#del {
+    width: 100%;
+    color: red;
+    font-size: 35px;
+}
+
+#div {
+    color: red;
+    font-size: 35px;
+    margin: 0 0 10px 185px
+}
+
+#level {
+    color: red;
+    font-size: 35px;
+    padding: 10px 135px;
+    margin-bottom: 10px;
+}
+
+#proc {
+    color: red;
+    font-size: 35px
+}
+
+.social-menu ul {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    Left: 10%;
+    bottom: 0.5%;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab {
+    font-size: 20px;
+    line-height: 40px;
+    transition: .6s;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover {
+    color: white;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #34465d;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #55acce;
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #e4405f;
+}
+
+.button ul {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    right: 0;
+    bottom:0;
+
+}
+
+.button ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.button ul li .fas {
+    font-size: 20px;
+    line-height: 40px;
+    transition: .6s;
+    color: #000;
+}
+
+.button ul li .fab:hover {
+    color: white;
+}
+
+.button ul li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.button ul li a:hover {
+    transform: translate(0, -10px);
+}
+
+.button ul li:nth-child(1) a:hover {
+    background-color: gold;
+}
